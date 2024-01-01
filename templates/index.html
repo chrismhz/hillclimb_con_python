@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rutas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body class="bg-info">
+    <center>
+        <br>
+    <h1><B><font COLOR="red">HILL CLIMBING</font></h1>
+    <h5><b>algoritmo de la Escalada de la Colina</b></h5>
+    <form action="{{ url_for('resultado') }}">
+        <br>
+        <img src="https://play-lh.googleusercontent.com/N0UxhBVUmx8s7y3F7Kqre2AcpXyPDKAp8nHjiPPoOONc_sfugHCYMjBpbUKCMlK_XUs=w600-h300-pc0xffffff-pd" width="400" height="200"/>
+        <br>
+        <br>
+        <h5>Es un algoritmo de búsqueda local que,</h5>    
+        <h5>a partir de un estado inicial, trata de ir mejorando</h5> 
+        <h5>el resultado analizando los estados vecinos.</h5>
+        <br>
+        <h5>En el ejemplo se parte de una ruta aleatoria,</h5>
+        <h5>pero muy bien podría ser una ruta construida</h5>
+        <h5>con un algoritmo constructivo voraz,</h5>
+        <h5>que quisiera tratar de mejorar a un más.</h5>
+        <br>
+        <h4><B><font COLOR="blue">Calcular esa ruta </font></h4>
+        <button type="submit" class="btn btn-danger">Calcular</button>
+        <br>
+        <br>
+        <img src="https://cdn-icons-png.flaticon.com/512/122/122932.png" width="50" height="50"/>
+    </form>
+    </center>
+</body>
+</html>
